@@ -1,0 +1,171 @@
+
+# coding: utf-8
+
+# In[18]:
+
+
+fruit=["cherry","pear","apple","banana","watermelon"]
+def is_apple(fruitx):
+        if fruitx == "apple":
+            return "I found it!"
+        else:
+            return ""
+        
+            
+       
+    
+for i in range(len(fruit)):
+    fruitx=str(fruit[i])
+    print(is_apple(fruitx))
+
+
+# In[33]:
+
+
+fruit.append('orange')
+
+
+# In[32]:
+
+
+fruit.append('pawpaw')
+
+
+# In[34]:
+
+
+print(fruit)
+
+
+# In[35]:
+
+
+for i in range(len(fruit)):
+    print(str(fruit[i])+" has "+str(len(fruit[i]))+"letters")
+
+
+# In[ ]:
+
+
+def half_squared(in_list)
+   out_list = []
+     for i in in_list:
+            out_list.append((element*element)/2)
+    return out_list
+
+
+# In[27]:
+
+
+half_squared([3,3]) == [4.5,4.5]
+
+
+
+# In[28]:
+
+
+The program print the largest number
+
+
+# In[40]:
+
+
+a = int(input("input the score:\n"))
+if a >= 0 and a <= 100:
+    if a >= 90:
+          print("A")
+    if 90>a>60:
+          print("B")
+    if 60>=a:
+          print("C")
+else:
+      print("error")
+
+
+# In[8]:
+
+
+a = int(input("input the first number"))
+b = int(input("input the second number"))
+c = int(input("input the third number"))
+def swap(x,y):
+        return y,x
+if a<b : a,b= swap(a,b)
+if a<c : a,c= swap(a,c)
+if b<c : b,c= swap(b,c)
+    
+def revSort(a,b,c):
+        return (a,b,c)
+print (a,b,c)
+
+
+# In[9]:
+
+
+list = [[1,2,3],[4,5,6]]
+for i in list:
+    for j in i:
+        print(j)
+        
+        
+        
+        
+
+
+# In[14]:
+
+
+for i in range(1,100):
+    if i ==sum(map(int,str(i**3))):
+        print(i)
+
+
+
+
+# In[21]:
+
+
+import random
+def exchange(a,b):
+    a,b=b,a
+    print('x=%d,y=%d' %(a,b))
+    
+x=random.randint(1,10)
+y=random.randint(1,10)
+print('x=%d,y=%d' %(x,y))
+print(exchange(x,y))
+
+
+
+
+# In[12]:
+
+
+print('     '"*")
+print('    '"***")
+print("   *****")
+print("  *******")
+print("   *****")
+print("    ***")
+print("     *")
+
+
+# In[23]:
+
+
+for i in range(1,7):
+    for j in range(i,7):
+        print(j,end='')
+    for k in range(1,i):
+            print(k,end="")
+        
+    print()
+
+
+# In[36]:
+
+
+players = ['charles','martina','michael','florence','eli']
+for player in players:
+        print(player.capitalize())
+
